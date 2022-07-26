@@ -53,7 +53,6 @@ async function buyma() {
       for (productIdObj of objOfproductIdResultArr) {
         productIdResultArr.push(productIdObj.buyma_product_id);
       }
-
       // 총 배열 나누기.
       let productIdResultArrSlice1;
       let productIdResultArrSlice2;
